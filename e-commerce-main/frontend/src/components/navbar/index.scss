@@ -1,0 +1,26 @@
+.cart-count-wide{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20px;
+  width: 20px;
+  text-align: center;
+  position: relative;
+  left: 15px;
+  bottom: 35px;
+  border-radius: 90px;
+  border: 1px solid;
+}
+
+.cart-count{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20px;
+  width: 20px;
+  text-align: center;
+  position: relative;
+  bottom: 18px;
+  border-radius: 90px;
+  border: 1px solid;
+}

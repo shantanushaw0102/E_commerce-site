@@ -1,0 +1,24 @@
+@media (max-width: 992px){
+    #categories {
+        display: none;
+    }
+}
+
+.dropdown-thumbnail-image{
+    max-width: 64px;
+}
+.dropdown-head{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.dropdown-toggle{
+    display: flex;
+    justify-content: center;
+}
+
+.dropdown-toggle::after{
+  display: none !important;
+}
