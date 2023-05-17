@@ -1,0 +1,47 @@
+{% extends "layout.html" %}
+
+{% block title %}
+
+{% endblock %}
+
+{% block main %}
+<script src="/static/script2.js"></script>
+<div class="container" id="weatherContainer">
+    <div class="row align-items-center">
+        <img src="/static/placeholder.png" id="celestialBody" aria-hidden="true" width='80' height="70"></img>
+        <h3 id="temp">
+            </h2>
+            <h3 id="celcius">
+                </h2>
+    </div>
+    <div class="row align-items-center">
+        <h4 id="city">
+            </h3>
+    </div>
+</div>
+
+<main class="container-fluid" style="z-index: 99; position: relative;">
+    <div class="row align-items-center">
+        <div class="col-md-5 order-2 order-md-1">
+            <div class="row align-items-center">
+                <div class="col-12">
+                    <h2>Notes app</h2>
+                </div>
+            </div>
+            <div class="row mt-2">
+                <div class="col-12">
+                    <ul class="list-group">
+                        <li class="list-group-item">Create A Note</li>
+                        <li class="list-group-item">View a previous note</li>
+                        <li class="list-group-item">Update a note</li>
+                        <li class="list-group-item">Delete old note</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-7 col-sm-12 order-1 order-md-2">
+            <img src="/static/—Pngtree—beautiful yellow note_4583281.png" class="img-fluid" alt="notes png image from pngtree.com">
+        </div>
+    </div>
+</main>
+{% endblock %}
